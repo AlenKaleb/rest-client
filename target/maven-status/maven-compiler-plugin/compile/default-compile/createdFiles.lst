@@ -5,3 +5,5 @@ br/com/awka/rest/BaseRest.class
 br/com/awka/pessoa/Telefone.class
 br/com/awka/dao/GenericDAO.class
 br/com/awka/pessoa/Pessoa.class
+br/com/awka/dao/PessoaDAO.class
+br/com/awka/repositorio/Repositorio.class

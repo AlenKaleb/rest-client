@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="rest-client:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="73529b2d-c043-497b-ae64-e038d4b64918" name="Default Changelist" comment="" />
+    <list default="true" id="73529b2d-c043-497b-ae64-e038d4b64918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/repositorio/Repositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/dao/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/IPessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Telefone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/rest/BaseRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/rest/PessoaRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +32,10 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -17,6 +43,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,6 +56,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -34,6 +64,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Yop0BscV7Nr2sMRqsckX8FYcvi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,36 +72,48 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/META-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15697674" />
     <property name="project.structure.side.proportion" value="0.23744293" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/webapp/WEB-INF" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.awka.pessoa" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
+      <command value="mvn deploy" />
       <command value="mvn install" />
+      <command value="mvn compile" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="JBOSS10" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
+    <configuration name="JBOSS15" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 15.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="rest-client:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
@@ -81,7 +124,7 @@
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8080" />
+        <option name="DEBUG_PORT" value="8787" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -128,9 +171,13 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method v="2" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rest-client:war exploded" />
+        </option>
+      </method>
     </configuration>
-    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../lib/jdk-8u241-linux-arm64-vfp-hflt/jdk1.8.0_241/jre">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -216,7 +263,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.18137255" />
+          <option name="contentProportion" value="0.20751634" />
           <treeState>
             <expand>
               <path>
@@ -226,7 +273,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -245,7 +292,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583618575944</updated>
-      <workItem from="1583618584068" duration="12031000" />
+      <workItem from="1583618584068" duration="18817000" />
+      <workItem from="1584206960141" duration="5345000" />
     </task>
     <servers />
   </component>
@@ -253,73 +301,105 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="405" y="27" width="626" height="741" key="#JBOSS10" timestamp="1583632273994">
+    <state x="405" y="27" width="626" height="741" key="#JBOSS10" timestamp="1583636219052">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="405" y="27" width="626" height="741" key="#JBOSS10/67.27.1299.741@67.27.1299.741" timestamp="1583632273994" />
-    <state x="311" y="59" width="800" height="677" key="#JBoss_Server" timestamp="1583628242692">
+    <state x="405" y="27" width="626" height="741" key="#JBOSS10/67.27.1299.741@67.27.1299.741" timestamp="1583636219052" />
+    <state x="501" y="27" width="626" height="741" key="#JBOSS15" timestamp="1583638405217">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="59" width="800" height="677" key="#JBoss_Server/67.27.1299.741@67.27.1299.741" timestamp="1583628242692" />
-    <state x="259" y="58" width="1032" height="677" key="#Project_Structure" timestamp="1583628737774">
+    <state x="501" y="27" width="626" height="741" key="#JBOSS15/67.27.1299.741@67.27.1299.741" timestamp="1583638405217" />
+    <state x="311" y="59" width="800" height="677" key="#JBoss_Server" timestamp="1583638288241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="259" y="58" width="1032" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1583628737774" />
-    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583628781469">
+    <state x="311" y="59" width="800" height="677" key="#JBoss_Server/67.27.1299.741@67.27.1299.741" timestamp="1583638288241" />
+    <state x="259" y="58" width="1032" height="677" key="#Project_Structure" timestamp="1584212320000">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1583628781469" />
+    <state x="259" y="58" width="1032" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1584212320000" />
+    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584211742721">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584211742721" />
+    <state x="419" y="201" width="584" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584211982336">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="419" y="201" width="584" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1584211982336" />
     <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1583623029317">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1583623029317" />
-    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583632272551">
+    <state x="311" y="59" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1583638294210">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1583632272551" />
-    <state width="1001" height="288" key="GridCell.Tab.0.bottom" timestamp="1583632250853">
+    <state x="311" y="59" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1299.741@67.27.1299.741" timestamp="1583638294210" />
+    <state x="267" y="324" width="888" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584213641459">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583632250853" />
-    <state width="1001" height="288" key="GridCell.Tab.0.center" timestamp="1583632250852">
+    <state x="267" y="324" width="888" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1299.741@67.27.1299.741" timestamp="1584213641459" />
+    <state x="390" y="27" width="642" height="740" key="#rest-client-1.0-SNAPSHOT.jar" timestamp="1583636306779">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1583632250852" />
-    <state width="1001" height="288" key="GridCell.Tab.0.left" timestamp="1583632250851">
+    <state x="390" y="27" width="642" height="740" key="#rest-client-1.0-SNAPSHOT.jar/67.27.1299.741@67.27.1299.741" timestamp="1583636306779" />
+    <state x="167" y="127" width="1099" height="543" key="DiffContextDialog" timestamp="1584212439179">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1583632250851" />
-    <state width="1001" height="288" key="GridCell.Tab.0.right" timestamp="1583632250852">
+    <state x="167" y="127" width="1099" height="543" key="DiffContextDialog/67.27.1299.741@67.27.1299.741" timestamp="1584212439179" />
+    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584211154956">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1583632250852" />
-    <state width="1001" height="288" key="GridCell.Tab.1.bottom" timestamp="1583632250854">
+    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1584211154956" />
+    <state width="1253" height="184" key="GridCell.Tab.0.bottom" timestamp="1584214244916">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583632250854" />
-    <state width="1001" height="288" key="GridCell.Tab.1.center" timestamp="1583632250854">
+    <state width="1253" height="184" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584214244916" />
+    <state width="1253" height="184" key="GridCell.Tab.0.center" timestamp="1584214244916">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1583632250854" />
-    <state width="1001" height="288" key="GridCell.Tab.1.left" timestamp="1583632250853">
+    <state width="1253" height="184" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584214244916" />
+    <state width="1253" height="184" key="GridCell.Tab.0.left" timestamp="1584214244915">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1583632250853" />
-    <state width="1001" height="288" key="GridCell.Tab.1.right" timestamp="1583632250854">
+    <state width="1253" height="184" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584214244915" />
+    <state width="1253" height="184" key="GridCell.Tab.0.right" timestamp="1584214244916">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1001" height="288" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1583632250854" />
+    <state width="1253" height="184" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584214244916" />
+    <state width="969" height="503" key="GridCell.Tab.1.bottom" timestamp="1584212016895">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="969" height="503" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584212016895" />
+    <state width="969" height="503" key="GridCell.Tab.1.center" timestamp="1584212016894">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="969" height="503" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584212016894" />
+    <state width="969" height="503" key="GridCell.Tab.1.left" timestamp="1584212016893">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="969" height="503" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584212016893" />
+    <state width="969" height="503" key="GridCell.Tab.1.right" timestamp="1584212016894">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="969" height="503" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584212016894" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1583624824756">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1583624824756" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1583619051936">
+    <state x="205" y="31" key="SettingsEditor" timestamp="1583636926547">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1583619051936" />
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1583632116683">
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1583636926547" />
+    <state x="373" y="27" width="676" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583634559254">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1583632116683" />
+    <state x="373" y="27" width="676" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741@67.27.1299.741" timestamp="1583634559254" />
+    <state x="67" y="27" width="710" height="741" key="find.popup" timestamp="1583636764340">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="710" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1583636764340" />
+    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1584214244957">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1584214244957" />
   </component>
 </project>

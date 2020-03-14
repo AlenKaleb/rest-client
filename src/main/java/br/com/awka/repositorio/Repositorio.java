@@ -10,7 +10,7 @@ public class Repositorio {
     @Inject
     private List<Pessoa> pessoas;
 
-    public List<Pessoa> listaPessoas(){
+    /**public List<Pessoa> listaPessoas(){
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Alen Kaleb");
         pessoa.setCpf("324.562.342.23");
@@ -35,12 +35,12 @@ public class Repositorio {
         });
     }
 
-    public void excluirPessoa(Long id){
+     public void excluirPessoa(Long id){
         this.pessoas.remove(this.pessoas.forEach(pessoa -> {
             if(pessoa.getId() == id){
                 return pessoa;
             }
         }));
-    }
+    } */
 
 }
