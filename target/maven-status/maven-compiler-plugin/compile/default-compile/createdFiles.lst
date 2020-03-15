@@ -1,6 +1,7 @@
 br/com/awka/pessoa/Endereco.class
 br/com/awka/rest/PessoaRest.class
 br/com/awka/pessoa/IPessoa.class
+SimpleServlet.class
 br/com/awka/rest/BaseRest.class
 br/com/awka/pessoa/Telefone.class
 br/com/awka/dao/GenericDAO.class

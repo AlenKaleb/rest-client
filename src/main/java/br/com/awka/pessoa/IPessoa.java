@@ -11,19 +11,19 @@ public interface IPessoa {
 
     @GET
     @Path("/")
-    public Response buscarPessoas();
+    Response buscarPessoas();
 
     @GET
     @Path("/{id}")
-    public Response consultarPessoa(@QueryParam("id") Long idPessoa);
+    Response consultarPessoa(@QueryParam("id") Long idPessoa);
 
     @POST
-    public Response inserirPessoa(Pessoa pessoa);
+    Response inserirPessoa(Pessoa pessoa);
 
     @PUT
     @Path("/{id}")
-    public Response alterarPessoa(Pessoa pessoa, @PathParam("id") Long idPessoa);
+    Response alterarPessoa(Pessoa pessoa, @PathParam("id") Long idPessoa);
 
     @DELETE
-    public Response excluirPessoa(Pessoa pessoa);
+    Response excluirPessoa(Pessoa pessoa);
 }

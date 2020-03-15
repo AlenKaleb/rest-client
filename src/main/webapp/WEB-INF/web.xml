@@ -4,11 +4,11 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <servlet>
-        <servlet-name>comingsoon</servlet-name>
-        <servlet-class>restclient.server.ComingSoonServlet</servlet-class>
+        <servlet-name>api</servlet-name>
+        <servlet-class>SimpleServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>comingsoon</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <servlet-name>api</servlet-name>
+        <url-pattern>/api/*</url-pattern>
     </servlet-mapping>
 </web-app>

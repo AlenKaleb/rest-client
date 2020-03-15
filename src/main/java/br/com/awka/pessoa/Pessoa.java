@@ -15,6 +15,9 @@ import java.util.Optional;
 public class Pessoa implements Serializable {
 
     @NotNull
+    private Long id;
+
+    @NotNull
     @NotBlank(message = "O campo nome é obrigatório")
     private String nome;
 

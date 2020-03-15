@@ -13,7 +13,7 @@ import java.util.List;
 public class GenericDAO<P, E extends Serializable> {
 
 
-    @PersistenceContext(unitName = "heroiUnit")
+    @PersistenceContext(unitName = "restClientUnit")
     private EntityManager em;
 
     private Class<E> clazz;
