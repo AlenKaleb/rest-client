@@ -7,42 +7,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73529b2d-c043-497b-ae64-e038d4b64918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/dto/PessoaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/parser/AbstractParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/parser/PessoaParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/rest/ApplicationRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/service/PessoaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/dao/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/dao/GenericDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/IPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/IPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/dao/PessoaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/dao/PessoaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/entity/pessoa/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/IPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/rest/pessoa/IPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/entity/pessoa/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/pessoa/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/entity/pessoa/Telefone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/repositorio/Repositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/dao/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/awka/dao/GenericDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/repositorio/Repositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/awka/repositorio/Repositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/dao/GenericDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/dao/PessoaDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/Endereco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/IPessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/Telefone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/repositorio/Repositorio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/rest/BaseRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/rest/PessoaRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-project-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/rest/BaseRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/awka/rest/PessoaRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/awka/rest/pessoa/PessoaRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/dao/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/dao/PessoaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/IPessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/pessoa/Telefone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/repositorio/Repositorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/rest/BaseRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/awka/rest/PessoaRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/SimpleServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/dao/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/dao/PessoaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/IPessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/pessoa/Telefone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/repositorio/Repositorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/rest/BaseRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/classes/br/com/awka/rest/PessoaRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.6.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/ehcache-2.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/geolatte-geom-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/hibernate-spatial-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/jts-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/weld-servlet-2.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/lib/wildfly-dist-15.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +98,20 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,6 +148,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;h2" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -103,38 +162,55 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15697674" />
-    <property name="project.structure.side.proportion" value="0.41081703" />
+    <property name="project.structure.side.proportion" value="0.16558862" />
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java/webapp/WEB-INF" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.awka.pessoa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
-      <command value="mvn clean" />
       <command value="mvn deploy" />
+      <command value="mvn clean" />
       <command value="mvn install" />
+      <command value="mvn dependency:resolve" />
+      <command value="mvn package" />
+      <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JBoss 15.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 15.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+  <component name="RunManager" selected="JBoss Server.RED HAT JBoss 7.1.Final">
+    <configuration name="executar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.executar" />
+      <module name="rest-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RED HAT JBoss 7.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.10.Final-redhat-1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="rest-client:war">
+        <artifact name="rest-client:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -197,7 +273,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="rest-client:war" />
+          <artifact name="rest-client:war exploded" />
         </option>
       </method>
     </configuration>
@@ -282,17 +358,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="rest-client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="rest-client" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.executar" />
+      <item itemvalue="JBoss Server.RED HAT JBoss 7.1.Final" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.executar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.12990196" />
+          <option name="contentProportion" value="0.27328646" />
           <treeState>
             <expand>
               <path>
@@ -303,6 +435,15 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="PostgreSQL - rest_client@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="PostgreSQL - rest_client@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6ec80b37" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -323,7 +464,20 @@
       <updated>1583618575944</updated>
       <workItem from="1583618584068" duration="18817000" />
       <workItem from="1584206960141" duration="15263000" />
-      <workItem from="1584237224107" duration="10617000" />
+      <workItem from="1584237224107" duration="11010000" />
+      <workItem from="1584292500935" duration="12774000" />
+      <workItem from="1584310792919" duration="885000" />
+      <workItem from="1584484632440" duration="10936000" />
+      <workItem from="1584658043446" duration="196000" />
+      <workItem from="1584658520420" duration="7606000" />
+      <workItem from="1584666817159" duration="2192000" />
+      <workItem from="1584702642369" duration="4096000" />
+      <workItem from="1584714337481" duration="550000" />
+      <workItem from="1584731167785" duration="330000" />
+      <workItem from="1585358868564" duration="11591000" />
+      <workItem from="1585420902642" duration="16480000" />
+      <workItem from="1585439639172" duration="5773000" />
+      <workItem from="1585490324628" duration="28438000" />
     </task>
     <servers />
   </component>
@@ -331,6 +485,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1634" y="82" width="800" height="677" key="#Assign_Data_Sources" timestamp="1585519446943">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1634" y="82" width="800" height="677" key="#Assign_Data_Sources/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585519446943" />
+    <state x="1433" y="91" width="800" height="677" key="#HTTP_Proxy" timestamp="1585434571547">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1433" y="91" width="800" height="677" key="#HTTP_Proxy/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585434571547" />
     <state x="405" y="27" width="626" height="741" key="#JBOSS10" timestamp="1583636219052">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -339,42 +501,56 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="501" y="27" width="626" height="741" key="#JBOSS15/67.27.1299.741@67.27.1299.741" timestamp="1584218025013" />
-    <state x="405" y="27" width="626" height="741" key="#JBoss_15.0.1.Final" timestamp="1584248087532">
+    <state x="405" y="27" width="626" height="741" key="#JBoss_15.0.1.Final" timestamp="1584303424939">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="405" y="27" width="626" height="741" key="#JBoss_15.0.1.Final/67.27.1299.741@67.27.1299.741" timestamp="1584248087532" />
-    <state x="311" y="59" width="800" height="677" key="#JBoss_Server" timestamp="1583638288241">
+    <state x="405" y="27" width="626" height="741" key="#JBoss_15.0.1.Final/67.27.1299.741@67.27.1299.741" timestamp="1584303424939" />
+    <state x="311" y="59" width="800" height="677" key="#JBoss_Server" timestamp="1584485269397">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="59" width="800" height="677" key="#JBoss_Server/67.27.1299.741@67.27.1299.741" timestamp="1583638288241" />
-    <state x="259" y="58" width="1032" height="677" key="#Project_Structure" timestamp="1584248004659">
+    <state x="311" y="59" width="800" height="677" key="#JBoss_Server/67.27.1299.741@67.27.1299.741" timestamp="1584485269397" />
+    <state x="1483" y="78" width="919" height="677" key="#Project_Structure" timestamp="1585492152581">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1483" y="78" width="919" height="677" key="#Project_Structure/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585492152581" />
+    <state x="259" y="58" width="1032" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1584666192007" />
+    <state x="405" y="27" width="626" height="741" key="#RED_HAT_JBoss_7.1.Final" timestamp="1584668758302">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="259" y="58" width="1032" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1584248004659" />
-    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584248105556">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="405" y="27" width="626" height="741" key="#RED_HAT_JBoss_7.1.Final/67.27.1299.741@67.27.1299.741" timestamp="1584668758302" />
+    <state x="1471" y="75" width="1069" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585521875893">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584248105556" />
+    <state x="1471" y="75" width="1069" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585521875893" />
+    <state x="174" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584667605453" />
     <state x="419" y="201" width="584" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584211982336">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="419" y="201" width="584" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1584211982336" />
-    <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1583623029317">
+    <state x="1817" y="127" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585520562309">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="481" y="151" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516921159" />
+    <state x="1817" y="127" key="#com.intellij.ide.util.MemberChooser/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585520562309" />
+    <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1584665465364" />
+    <state x="1489" y="79" width="917" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1585438397369">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1489" y="79" width="917" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585438397369" />
+    <state x="311" y="59" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1299.741@67.27.1299.741" timestamp="1584667597882" />
+    <state x="399" y="133" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584658071888">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1583623029317" />
-    <state x="311" y="59" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1583638294210">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="399" y="133" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1299.741@67.27.1299.741" timestamp="1584658071888" />
+    <state x="210" y="353" width="984" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585513078733">
+      <screen x="0" y="75" width="1366" height="693" />
     </state>
-    <state x="311" y="59" width="800" height="677" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1299.741@67.27.1299.741" timestamp="1583638294210" />
-    <state x="267" y="324" width="888" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584213641459">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
+    <state x="210" y="353" width="984" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585513078733" />
     <state x="267" y="324" width="888" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1299.741@67.27.1299.741" timestamp="1584213641459" />
-    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584245385704">
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584666466770">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1584245385704" />
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1584666466770" />
     <state x="390" y="27" width="642" height="740" key="#rest-client-1.0-SNAPSHOT.jar" timestamp="1583636306779">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -383,69 +559,110 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="446" y="117" width="530" height="558" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1584236733443" />
-    <state x="167" y="127" width="1099" height="543" key="DiffContextDialog" timestamp="1584212439179">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1465" y="145" width="1083" height="528" key="DiffContextDialog" timestamp="1585436118011">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
+    <state x="1465" y="145" width="1083" height="528" key="DiffContextDialog/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585436118011" />
     <state x="167" y="127" width="1099" height="543" key="DiffContextDialog/67.27.1299.741@67.27.1299.741" timestamp="1584212439179" />
-    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584240707727">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1995" y="204" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585438123152">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1584240707727" />
-    <state width="960" height="560" key="GridCell.Tab.0.bottom" timestamp="1584248130700">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1995" y="204" width="424" height="484" key="FileChooserDialogImpl/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585438123152" />
+    <state x="705" y="188" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1584731507658" />
+    <state width="826" height="218" key="GridCell.Tab.0.bottom" timestamp="1585534102113">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584248130700" />
-    <state width="960" height="560" key="GridCell.Tab.0.center" timestamp="1584248130699">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.0.bottom/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421052" />
+    <state width="826" height="218" key="GridCell.Tab.0.bottom/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102113" />
+    <state width="903" height="166" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584709211638" />
+    <state width="826" height="218" key="GridCell.Tab.0.center" timestamp="1585534102113">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584248130699" />
-    <state width="960" height="560" key="GridCell.Tab.0.left" timestamp="1584248130698">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.0.center/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421052" />
+    <state width="826" height="218" key="GridCell.Tab.0.center/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102113" />
+    <state width="903" height="166" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584709211636" />
+    <state width="826" height="218" key="GridCell.Tab.0.left" timestamp="1585534102113">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584248130698" />
-    <state width="960" height="560" key="GridCell.Tab.0.right" timestamp="1584248130700">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.0.left/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421052" />
+    <state width="826" height="218" key="GridCell.Tab.0.left/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102113" />
+    <state width="903" height="166" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584709211628" />
+    <state width="826" height="218" key="GridCell.Tab.0.right" timestamp="1585534102113">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584248130700" />
-    <state width="960" height="560" key="GridCell.Tab.1.bottom" timestamp="1584248130702">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.0.right/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421052" />
+    <state width="826" height="218" key="GridCell.Tab.0.right/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102113" />
+    <state width="903" height="166" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584709211637" />
+    <state width="826" height="218" key="GridCell.Tab.1.bottom" timestamp="1585534102114">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584248130702" />
-    <state width="960" height="560" key="GridCell.Tab.1.center" timestamp="1584248130701">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.1.bottom/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421053" />
+    <state width="826" height="218" key="GridCell.Tab.1.bottom/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102114" />
+    <state width="903" height="166" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584709211642" />
+    <state width="826" height="218" key="GridCell.Tab.1.center" timestamp="1585534102114">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584248130701" />
-    <state width="960" height="560" key="GridCell.Tab.1.left" timestamp="1584248130701">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.1.center/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421053" />
+    <state width="826" height="218" key="GridCell.Tab.1.center/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102114" />
+    <state width="903" height="166" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584709211640" />
+    <state width="826" height="218" key="GridCell.Tab.1.left" timestamp="1585534102114">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584248130701" />
-    <state width="960" height="560" key="GridCell.Tab.1.right" timestamp="1584248130702">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.1.left/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421053" />
+    <state width="826" height="218" key="GridCell.Tab.1.left/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102114" />
+    <state width="903" height="166" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584709211639" />
+    <state width="826" height="218" key="GridCell.Tab.1.right" timestamp="1585534102114">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state width="960" height="560" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584248130702" />
-    <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1583624824756">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="937" height="37" key="GridCell.Tab.1.right/1366.48.1280.720/0.75.1366.693@0.75.1366.693" timestamp="1585516421053" />
+    <state width="826" height="218" key="GridCell.Tab.1.right/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585534102114" />
+    <state width="903" height="166" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584709211641" />
+    <state x="1545" y="75" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1585428355467">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
+    <state x="1545" y="75" width="924" height="684" key="Maven.ArtifactSearchDialog/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585428355467" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1583624824756" />
-    <state x="205" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1584237042021">
+    <state x="398" y="89" width="627" height="615" key="RollbackChangesDialog" timestamp="1584704865331">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1584237042021" />
-    <state x="289" y="44" width="844" height="704" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1584240243252">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="398" y="89" width="627" height="615" key="RollbackChangesDialog/67.27.1299.741@67.27.1299.741" timestamp="1584704865331" />
+    <state x="172" y="48" width="1010" height="720" key="SettingsEditor" timestamp="1585435415858">
+      <screen x="0" y="75" width="1366" height="693" />
     </state>
-    <state x="289" y="44" width="844" height="704" key="com.intellij.javaee.view.ServerArtifactsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584240243252" />
+    <state x="172" y="48" width="1010" height="720" key="SettingsEditor/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585435415858" />
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1584662485077" />
+    <state x="1808" y="137" width="452" height="566" key="VcsDiffUtil.ChangesDialog" timestamp="1585436119641">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1808" y="137" width="452" height="566" key="VcsDiffUtil.ChangesDialog/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585436119641" />
+    <state x="1695" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1585490354255">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1695" y="248" key="com.intellij.ide.util.TipDialog/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585490354255" />
+    <state x="1585" y="75" width="844" height="704" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1585438045995">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1585" y="75" key="com.intellij.javaee.view.ServerArtifactsDialog/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585438045995" />
+    <state x="289" y="44" width="844" height="704" key="com.intellij.javaee.view.ServerArtifactsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584663579706" />
     <state x="373" y="27" width="676" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583634559254">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="373" y="27" width="676" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741@67.27.1299.741" timestamp="1583634559254" />
-    <state x="67" y="27" width="710" height="741" key="find.popup" timestamp="1583636764340">
+    <state x="67" y="27" width="710" height="741" key="find.popup" timestamp="1584665087174">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="67" y="27" width="710" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1583636764340" />
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1584247938574">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="67" y="27" width="710" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1584665087174" />
+    <state x="1674" y="192" width="672" height="658" key="run.anything.popup" timestamp="1585505670578">
+      <screen x="1366" y="48" width="1280" height="720" />
     </state>
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1584247938574" />
+    <state x="1674" y="192" width="672" height="658" key="run.anything.popup/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585505670578" />
+    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1584301250697" />
+    <state x="1702" y="89" key="search.everywhere.popup" timestamp="1585436465857">
+      <screen x="1366" y="48" width="1280" height="720" />
+    </state>
+    <state x="1702" y="89" key="search.everywhere.popup/1366.48.1280.720/0.75.1366.693@1366.48.1280.720" timestamp="1585436465857" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rest_client$JBoss_15_0_1_Final.ic" NAME="JBoss 15.0.1.Final Coverage Results" MODIFIED="1584296273867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

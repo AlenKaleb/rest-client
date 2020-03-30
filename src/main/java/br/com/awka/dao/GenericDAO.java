@@ -59,7 +59,7 @@ public class GenericDAO<P, E extends Serializable> {
 
     @Transactional
     public void remove(E e) {
-        em.remove(e);
+        em.remove(em.contains(e)?e:em.merge(e));
     }
 
     public EntityManager getEntityManager() {
